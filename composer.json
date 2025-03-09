@@ -1,10 +1,10 @@
 {
-    "name": "remotelywork/installer",
+    "name": "digitalhustlaz/installer",
     "description": "Official Script Installer Of tDevs",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Remotelywork\\Installer\\": "src/"
+            "DigitalHustlaz\\Installer\\": "src/"
         }
     },
     "authors": [
@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Remotelywork\\Installer\\InstallerServiceProvider"
+                "DigitalHustlaz\\Installer\\InstallerServiceProvider"
             ]
         }
     }
